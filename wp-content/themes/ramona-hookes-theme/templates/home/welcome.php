@@ -12,14 +12,15 @@
     <div class="uk-width-1-2@m uk-padding-large uk-padding-remove-top uk-background-muted about-me-text" uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
       <h2 class="uk-text-large uk-padding-small">ABOUT THE RAMONA HOOKES MEMORIAL INSTITUTE</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec orci dolor. Maecenas ut vehicula nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec sed sollicitudin velit, nec mollis felis.
+        In a effort to develop Dominion Cathedral Ministries Foreign Mission ministry, Dominion Restoration Ministries have decided to adopt Ramona Hookes Memorial Institute.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec orci dolor. Maecenas ut vehicula nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec sed sollicitudin velit, nec mollis felis. Lorem ipsum
-        dolor sit amet, consectetur adipiscing elit. Nam nec orci dolor. Maecenas ut vehicula nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec sed sollicitudin velit, nec mollis felis.
+        Ramona Hookes Memorial Institute is a school that is built to help poor parents and guardians who are unable to send their children to school.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec orci dolor. Maecenas ut vehicula nisi.
+        This school will be absolutely free to the public. There will be quality education offered here free of charge, your responsibility as parent or
+        guardian is to just send your children to school and leave the rest with us. We will be working indirect consultation with the Ministry of
+        Education by following the requisite curriculum.
       </p>
     </div>
     </div>

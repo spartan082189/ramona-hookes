@@ -10259,7 +10259,7 @@ td.uk-text-break {
   width: 100%;
 }
 #welcome .about-me-img {
-  background: url(../../assets/images/ramona.jpg) center center / cover no-repeat;
+  background: url(../../assets/images/ramona.jpg) 50% 20% / cover no-repeat;
   height: 550px;
   width: 100%;
 }
@@ -10482,14 +10482,14 @@ td.uk-text-break {
   margin-bottom: 0;
 }
 ::selection {
-  background: #1e88e5;
+  background: #ff8a65;
   color: #fff;
 }
 .uk-offcanvas-overlay {
   min-width: 100%;
 }
 .uk-totop {
-  background: #1e88e5;
+  background: #ff8a65;
   position: fixed;
   bottom: 0;
   right: 6%;
@@ -10503,7 +10503,7 @@ td.uk-text-break {
 .uk-totop:active {
   transition: all ease .5s;
   color: #fff;
-  background: #166dba;
+  background: #ff6332;
 }
 .uk-notification {
   top: 0;
@@ -10739,6 +10739,6 @@ td.uk-text-break {
   transition: all ease .3s;
 }
 .toggle-menu-btn .fa:hover {
-  color: #1e88e5;
+  color: #ff6332;
   transition: all ease .3s;
 }
