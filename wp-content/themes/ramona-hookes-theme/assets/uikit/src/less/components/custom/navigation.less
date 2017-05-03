@@ -1,0 +1,73 @@
+//                   ##### Navigation #####
+// ================================================================
+#nav {
+  &.uk-offcanvas-bar {
+    background: @global-dark-background;
+  }
+  .uk-list {
+    .fa {
+      margin-right: 15px;
+      font-size: 1.3em;
+    }
+    li {
+      a {
+        font-weight: 300;
+        padding: 7px 0;
+        transition: all ease .5s;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        &:hover {
+          transition: all ease .5s;
+          text-decoration: none;
+          -webkit-transform: translateX(15px);
+          transform: translateX(15px);
+          span {
+            transition: all ease .5s;
+            border-bottom: 2px solid @global-secondary-background;
+          }
+        }
+        span {
+          transition: all ease .5s;
+          display: inline-block;
+          border-bottom: 2px solid transparent;
+          padding-bottom: 5px;
+        }
+      }
+    }
+  }
+  .avatar {
+    .avatar-name {
+      color: @global-secondary-background;
+      margin: 10px 0;
+      font-size: 1.2em;
+    }
+    img {
+      transition: all ease .4s;
+      max-height: 110px;
+      margin: 0 auto;
+      &:hover {
+        transition: all ease .4s;
+        transform: rotate(30deg);
+      }
+    }
+  }
+  .uk-heading-bullet {
+    font-weight: 200;
+    &:before {
+      border-color: @global-primary-background;
+    }
+  }
+}
+
+.toggle-menu-btn {
+  text-align: right;
+  margin-top: 25px;
+  .fa {
+    color: @global-secondary-background;
+    transition: all ease .3s;
+    &:hover {
+      color: @global-primary-background;
+      transition: all ease .3s;
+    }
+  }
+}

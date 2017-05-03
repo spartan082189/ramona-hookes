@@ -1,0 +1,151 @@
+// Name:            Globals
+// Description:     Global/Sitewide styles
+//
+//
+// ========================================================================
+
+//                   ##### Site wide #####
+// ================================================================
+::selection {
+  background: @global-primary-background;
+  color: #fff;
+}
+
+.uk-offcanvas-overlay {
+  min-width: 100%;
+}
+
+.uk-totop {
+  background: @global-primary-background;
+  position: fixed;
+  bottom: 0;
+  right: 6%;
+  padding: 15px;
+  color: #fff;
+  transition: all ease .5s;
+  border-radius: 5px 5px 0 0;
+  &:hover, &:focus, &:active {
+    transition: all ease .5s;
+    color: #fff;
+    background: darken(@global-primary-background, 10%);
+  }
+}
+
+.uk-notification {
+  top: 0;
+}
+
+.uk-notification-message {
+  border-radius: 0 0 4px 4px;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+  &.uk-notification-message-danger {
+    background: @global-danger-background;
+    color: #fff;
+  }
+  &.uk-notification-message-success {
+    background: @global-success-background;
+    color: #fff;
+  }
+  &.uk-notification-message-warning {
+    background: @global-warning-background;
+    color: @global-color;
+    .uk-close {
+      color: @global-color;
+    }
+  }
+  &.uk-notification-message-primary {
+    background: @global-primary-background;
+    color: #fff;
+  }
+  .uk-close {
+    color: #fff;
+  }
+}
+
+//                   ##### Sticky Menu #####
+// ================================================================
+#sticky-menu {
+  width: 100% !important;
+  &.uk-sticky {
+    .non-sticky {
+      display: block;
+      .uk-logo {
+        color: #fff;
+        font-weight: 300;
+        font-size: 2rem;
+        margin-top: 25px;
+      }
+    }
+    .sticky {
+      display: none;
+    }
+    &.uk-active {
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      background: @global-dark-background;
+      .non-sticky {
+        display: none;
+      }
+      .sticky {
+        display: flex;
+        .uk-logo {
+          margin-top: 0;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+  .uk-logo {
+    color: #fff;
+  }
+  .uk-list {
+    li {
+      font-size: 1rem;
+      font-weight: 200;
+      margin: 0;
+    }
+    a {
+      color: #fff;
+      text-decoration: none;
+      transition: all ease .3s;
+      font-weight: 300;
+      span {
+        transition: all ease .3s;
+        border-bottom: 2px solid transparent;
+        padding-bottom: 5px;
+        &:hover {
+          transition: all ease .3s;
+          border-bottom: 2px solid @global-secondary-background;
+        }
+      }
+    }
+    .fa {
+      margin-right: 10px;
+    }
+    .uk-active {
+      .fa {
+        color: @global-primary-background;
+      }
+      span {
+        border-bottom: 2px solid @global-primary-background;
+        padding-bottom: 5px;
+        transition: all ease .3s;
+      }
+    }
+  }
+}
+
+//                   ##### Search form #####
+// ================================================================
+#search-form {
+    .uk-inline {
+        width: 100%;
+    }
+    .uk-input {
+        border-bottom: 1px solid @global-primary-background;
+    }
+}
