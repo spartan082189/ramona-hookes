@@ -1,4 +1,4 @@
-<?php get_template_part('templates/globals/social-media'); ?>
+<?php get_template_part('templates/globals/latest-post'); ?>
 <!-- ########## FOOTER ########## -->
 <footer id="footer" class="uk-padding-small">
   <div class="uk-container">

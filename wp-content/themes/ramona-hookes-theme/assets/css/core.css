@@ -10268,59 +10268,68 @@ td.uk-text-break {
 }
 #about .about-me-text,
 #about .about-me-icon {
-  height: 250px;
+  height: 300px;
 }
 #about .about-me-icon {
   background: #ff8a65;
 }
-#about .fa {
-  padding-top: 7%;
+#about .fa-info {
+  padding-top: 8%;
   color: #fff;
   font-size: 7em;
 }
-#contact {
-  background: #eee;
+#about .fa-dot-circle-o {
+  color: #ff8a65;
+  font-size: 2em;
+  vertical-align: middle;
+  margin-right: 10px;
 }
-#contact .uk-input,
-#contact .uk-select,
-#contact .uk-textarea {
-  border-bottom: 1px solid #1e88e5;
-  border-radius: 0;
+#quick-facts {
+  background: #1e88e5 url(../../assets/images/quick-facts.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 550px;
 }
-#contact .uk-input.uk-form-danger,
-#contact .uk-select.uk-form-danger,
-#contact .uk-textarea.uk-form-danger {
-  border: 1px solid #d32f2f;
-  border-radius: 4px;
+#quick-facts h2 {
+  color: #ff8a65;
 }
-#contact #contact-form {
+#quick-facts .uk-list {
   margin: 0 auto;
 }
-#contact #contact-form textarea {
-  resize: none;
-}
-#contact .submit-icon {
+#quick-facts .uk-list li {
   color: #fff;
+  font-size: 1.3em;
+  font-weight: 300;
 }
-#tweets-contact {
-  background: #37474f;
-  color: #fff;
+#quick-facts .uk-list .fa-check-circle-o {
+  color: #ff8a65;
+  font-size: 2em;
+  vertical-align: middle;
+  margin-right: 10px;
 }
-#tweets-contact h4 {
-  color: #fff;
+#quick-facts .vs-mission-wrap {
+  text-align: center;
+  margin-top: 3%;
 }
-#tweets-contact h4 .fa {
+#quick-facts .vs-mission-btn {
+  font-weight: 300;
+}
+#quick-facts .vs-mission-btn .fa-bullseye {
+  margin-right: 5px;
+  font-size: 1.3em;
   vertical-align: middle;
 }
-#tweets-contact .contact-info li {
-  padding: 5px 7px;
-  font-weight: 300;
+#latest-post h2 {
+  color: #ff8a65;
 }
-#tweets-contact .contact-info .fa {
-  margin-right: 5px;
+#latest-post .fa-feed {
+  color: #ff8a65;
 }
-#tweets-contact #tweets {
-  font-weight: 300;
+#latest-post .uk-article-title {
+  text-decoration: none;
+  font-size: 1.7em;
+}
+#latest-post .date {
+  font-size: 1.3em;
 }
 @media (max-width: 640px) {
   #testimonials {

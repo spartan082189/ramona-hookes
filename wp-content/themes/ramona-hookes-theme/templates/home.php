@@ -4,5 +4,5 @@
   <?php get_template_part('templates/home/hero'); ?>
   <?php get_template_part('templates/home/welcome'); ?>
   <?php get_template_part('templates/home/about'); ?>
-  <?php get_template_part('templates/home/contact'); ?> 
+  <?php get_template_part('templates/home/quick-facts'); ?> 
 <?php get_footer(); ?>
