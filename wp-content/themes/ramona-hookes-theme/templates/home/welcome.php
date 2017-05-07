@@ -1,5 +1,5 @@
 <!-- ########## WELCOME ########## -->
-<section id="welcome" class="uk-section">
+<section id="welcome" class="uk-section uk-section uk-padding-remove-top uk-padding-remove-bottom">
   <div class="uk-width-1-1">
     <div uk-grid class="uk-grid-collapse" uk-scrollspy="target: > div; cls:uk-animation-slide-bottom; delay: 500; repeat: true">
       <div class="uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-top-medium; repeat: true; delay: 400;">

@@ -67,69 +67,19 @@
 //                   ##### About #####
 // ================================================================
 #about {
-  img {
-    max-height: 100%;
-    width: 100%;
+  .about-me-text, .about-me-icon {
+    height: 250px;
   }
-  .about-me-img {
-    background: url(../../assets/images/about.jpg) center center / cover no-repeat;
-    height: 550px;
-    width: 100%;
+  .about-me-icon {
+    background: @global-secondary-background;
   }
-  .about-me-text {
-    height: 550px;
+  .fa {
+    padding-top: 7%;
+    color: #fff;
+    font-size: 7em;
   }
 }
 
-//                   ##### Portfolio #####
-// ================================================================
-#portfolio {
-  img {
-    width: 100%;
-  }
-  .portfolio-item {
-    width: 100%;
-  }
-  .portfolio-text {
-    color: #fff;
-  }
-}
-
-//                   ##### Subscribe #####
-// ================================================================
-#subscribe {
-  background: @global-medium-background;
-  h2 {
-    color: #fff;
-  }
-  #subscribe-form {
-    margin: 0 auto;
-  }
-}
-
-//                   ##### Testimonials #####
-// ================================================================
-#testimonials {
-  background: @global-medium-background url(../../assets/images/testimonials.jpg) no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
-  transition: all ease .6s;
-  color: #fff;
-  .testimonial {
-    width: 100%;
-  }
-  .cycle-slideshow {
-    width: 100%;
-  }
-  .cycle-next, .cycle-prev {
-    z-index: 100;
-    color: #fff;
-  }
-  h2, h3, .uk-text-lead {
-    color: #fff;
-    font-weight: 200;
-  }
-}
 
 //                   ##### Contact #####
 // ================================================================

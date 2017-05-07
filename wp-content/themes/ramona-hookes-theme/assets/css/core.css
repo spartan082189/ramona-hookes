@@ -10266,59 +10266,17 @@ td.uk-text-break {
 #welcome .about-me-text {
   height: 550px;
 }
-#about img {
-  max-height: 100%;
-  width: 100%;
+#about .about-me-text,
+#about .about-me-icon {
+  height: 250px;
 }
-#about .about-me-img {
-  background: url(../../assets/images/about.jpg) center center / cover no-repeat;
-  height: 550px;
-  width: 100%;
+#about .about-me-icon {
+  background: #ff8a65;
 }
-#about .about-me-text {
-  height: 550px;
-}
-#portfolio img {
-  width: 100%;
-}
-#portfolio .portfolio-item {
-  width: 100%;
-}
-#portfolio .portfolio-text {
+#about .fa {
+  padding-top: 7%;
   color: #fff;
-}
-#subscribe {
-  background: #455a64;
-}
-#subscribe h2 {
-  color: #fff;
-}
-#subscribe #subscribe-form {
-  margin: 0 auto;
-}
-#testimonials {
-  background: #455a64 url(../../assets/images/testimonials.jpg) no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
-  transition: all ease .6s;
-  color: #fff;
-}
-#testimonials .testimonial {
-  width: 100%;
-}
-#testimonials .cycle-slideshow {
-  width: 100%;
-}
-#testimonials .cycle-next,
-#testimonials .cycle-prev {
-  z-index: 100;
-  color: #fff;
-}
-#testimonials h2,
-#testimonials h3,
-#testimonials .uk-text-lead {
-  color: #fff;
-  font-weight: 200;
+  font-size: 7em;
 }
 #contact {
   background: #eee;
@@ -10345,7 +10303,7 @@ td.uk-text-break {
   color: #fff;
 }
 #tweets-contact {
-  background: #263238;
+  background: #37474f;
   color: #fff;
 }
 #tweets-contact h4 {
@@ -10433,7 +10391,7 @@ td.uk-text-break {
   text-decoration: none;
 }
 #single-header {
-  background: #455a64 top center no-repeat;
+  background: #546e7a top center no-repeat;
   min-height: 300px;
   background-size: cover;
   position: relative;
@@ -10556,7 +10514,7 @@ td.uk-text-break {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  background: #263238;
+  background: #37474f;
 }
 #sticky-menu.uk-sticky.uk-active .non-sticky {
   display: none;
@@ -10622,7 +10580,7 @@ td.uk-text-break {
   background: #ffffff;
 }
 #cat-hero {
-  background: #263238 top center no-repeat;
+  background: #37474f top center no-repeat;
   min-height: 200px;
   background-size: cover;
   position: relative;
@@ -10637,7 +10595,7 @@ td.uk-text-break {
   margin: 3% 0;
 }
 #search-hero {
-  background: #455a64 top center no-repeat;
+  background: #546e7a top center no-repeat;
   min-height: 250px;
   background-size: cover;
   position: relative;
@@ -10657,7 +10615,7 @@ td.uk-text-break {
   margin: 3% 0;
 }
 #footer {
-  background: #455a64;
+  background: #546e7a;
 }
 #footer p,
 #footer .fa {
@@ -10681,7 +10639,7 @@ td.uk-text-break {
   color: #ff8a65;
 }
 #nav.uk-offcanvas-bar {
-  background: #263238;
+  background: #37474f;
 }
 #nav .uk-list .fa {
   margin-right: 15px;
