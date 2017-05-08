@@ -1,7 +1,7 @@
 //                   ##### Footer #####
 // ================================================================
 #footer {
-  background: @global-medium-background;
+  background: @global-primary-background;
   p, .fa {
     color: #fff;
   }
@@ -12,15 +12,14 @@
       transition: all ease .3s;
     }
   }
-  .footer-social-links {
+  .footer-nav {
     li {
       padding: 0 5px;
-    }
-    .fa {
-      transition: all ease .3s;
-      &:hover {
-        transition: all ease .3s;
-        color: @global-secondary-background;
+      a {
+        color: lighten(@global-secondary-background, 20%);
+        &:hover {
+          color: #fff;
+        }
       }
     }
   }

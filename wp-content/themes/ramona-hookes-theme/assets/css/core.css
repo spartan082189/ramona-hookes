@@ -10624,7 +10624,7 @@ td.uk-text-break {
   margin: 3% 0;
 }
 #footer {
-  background: #546e7a;
+  background: #1e88e5;
 }
 #footer p,
 #footer .fa {
@@ -10637,15 +10637,17 @@ td.uk-text-break {
 #footer a:hover {
   transition: all ease .3s;
 }
-#footer .footer-social-links li {
+#footer .footer-nav li {
   padding: 0 5px;
 }
-#footer .footer-social-links .fa {
-  transition: all ease .3s;
+#footer .footer-nav li a {
+  color: #ffd7cb;
 }
-#footer .footer-social-links .fa:hover {
-  transition: all ease .3s;
-  color: #ff8a65;
+#footer .footer-nav li a:hover {
+  color: #fff;
+}
+#nav nav {
+  margin-top: 40px;
 }
 #nav.uk-offcanvas-bar {
   background: #37474f;
@@ -10708,4 +10710,11 @@ td.uk-text-break {
 .toggle-menu-btn .fa:hover {
   color: #ff6332;
   transition: all ease .3s;
+}
+.author-img-menu {
+  border-radius: 5px;
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  display: block;
 }

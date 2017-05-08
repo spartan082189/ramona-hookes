@@ -1,17 +1,16 @@
-<?php get_template_part('templates/globals/latest-post'); ?>
+<?php //get_template_part('templates/globals/latest-post'); ?>
 <!-- ########## FOOTER ########## -->
 <footer id="footer" class="uk-padding-small">
   <div class="uk-container">
     <div class="uk-width-1-1">
-      <ul class="uk-list footer-social-links uk-text-center">
-        <li class="uk-display-inline-block"><a href="javascript:void(0);"><i class="fa fa-facebook fa-2x"></i></a></li>
-        <li class="uk-display-inline-block"><a href="javascript:void(0);"><i class="fa fa-twitter fa-2x"></i></a></li>
-        <li class="uk-display-inline-block"><a href="javascript:void(0);"><i class="fa fa-linkedin fa-2x"></i></a></li>
-        <li class="uk-display-inline-block"><a href="javascript:void(0);"><i class="fa fa-dribbble fa-2x"></i></a></li>
-        <li class="uk-display-inline-block"><a href="javascript:void(0);"><i class="fa fa-youtube fa-2x"></i></a></li>
-        <li class="uk-display-inline-block"><a href="javascript:void(0);"><i class="fa fa-github fa-2x"></i></a></li>
+      <ul class="uk-list footer-nav uk-text-center">
+        <li class="uk-display-inline-block"><a href="javascript:void(0);">Home</a></li>
+        <li class="uk-display-inline-block"><a href="javascript:void(0);">| Vision and Mission</a></li>
+        <li class="uk-display-inline-block"><a href="javascript:void(0);">| Goals and Current Projects</a></li>
+        <li class="uk-display-inline-block"><a href="javascript:void(0);">| Blog</a></li>
+        <li class="uk-display-inline-block"><a href="javascript:void(0);">| Contact</a></li>
       </ul>
-      <p class="uk-text-center">Copyright <?php echo date('Y'); ?>. Some company</p>
+      <p class="uk-text-center">Copyright <?php echo date('Y'); ?>. Ramona Hookes Memorial Institute.</p>
     </div>
   </div>
 </footer>

@@ -16,10 +16,7 @@
       <ul class="uk-list social-links" uk-scrollspy="cls:uk-animation-slide-top-small; delay: 500; repeat: true">
         <li class="uk-display-inline-block"><a href="javascript:void(0);"><i class="fa fa-facebook fa-2x"></i></a></li>
         <li class="uk-display-inline-block"><a href="javascript:void(0);"><i class="fa fa-twitter fa-2x"></i></a></li>
-        <li class="uk-display-inline-block"><a href="javascript:void(0);"><i class="fa fa-linkedin fa-2x"></i></a></li>
-        <li class="uk-display-inline-block"><a href="javascript:void(0);"><i class="fa fa-dribbble fa-2x"></i></a></li>
-        <li class="uk-display-inline-block"><a href="javascript:void(0);"><i class="fa fa-youtube fa-2x"></i></a></li>
-        <li class="uk-display-inline-block"><a href="javascript:void(0);"><i class="fa fa-github fa-2x"></i></a></li>
+        <li class="uk-display-inline-block"><a href="javascript:void(0);"><i class="fa fa-feed fa-2x"></i></a></li>
       </ul>
       <div class="uk-textt-center uk-padding scroll-down" uk-scrollspy="cls:uk-animation-slide-top-small; delay: 1100; repeat: true">
         <a href="#welcome" title="Scroll down" uk-scroll><i class="fa fa-chevron-down fa-2x"></i></a>
