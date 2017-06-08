@@ -4,8 +4,8 @@
   <section id="blog-hero">
     <?php get_template_part('templates/globals/navigation'); ?>
     <div class="uk-container uk-text-center content">
-      <h1 uk-scrollspy="cls:uk-animation-slide-top-small; delay: 100; repeat: true">Journal</h1>
-      <p class="lead-text" uk-scrollspy="cls:uk-animation-slide-top-small; delay: 300; repeat: true">A collection of my thoughts...</p>
+      <h1 uk-scrollspy="cls:uk-animation-slide-top-small; delay: 100; repeat: true">Our Journal</h1>
+      <p class="lead-text" uk-scrollspy="cls:uk-animation-slide-top-small; delay: 300; repeat: true">A collection of our thoughts...</p>
     </div>
   </section>    
   <section id="blog-posts">

@@ -6,11 +6,11 @@
       <div class="uk-width-1-1">
         <?php if( is_front_page() ) : ?>
         <ul class="uk-list uk-text-center" uk-scrollspy-nav="closest: li > a; scroll: true">       
-          <li class="uk-display-inline-block uk-padding-small"><a href='#home' class="uk-display-block" uk-scroll><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a></li>
-          <li class="uk-display-inline-block uk-padding-small"><a href='#services' class="uk-display-block" uk-scroll><i class="fa fa-bullseye" aria-hidden="true"></i><span>Vision and Mission</span></a></li>
-          <li class="uk-display-inline-block uk-padding-small"><a href='#about' class="uk-display-block" uk-scroll><i class="fa fa-folder" aria-hidden="true"></i><span>Goals and Current Projects</span></a></li>
-          <li class="uk-display-inline-block uk-padding-small"><a href='#portfolio' class="uk-display-block" uk-scroll><i class="fa fa-feed" aria-hidden="true"></i><span>Blog</span></a></li>
-          <li class="uk-display-inline-block uk-padding-small"><a href='#testimonials' class="uk-display-block" uk-scroll><i class="fa fa-envelope" aria-hidden="true"></i><span>Contact</span></a></li>
+          <li class="uk-display-inline-block uk-padding-small"><a href='<?php echo site_url(); ?>' class="uk-display-block" uk-scroll><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a></li>
+          <li class="uk-display-inline-block uk-padding-small"><a href='<?php echo site_url(); ?>' class="uk-display-block" uk-scroll><i class="fa fa-bullseye" aria-hidden="true"></i><span>Vision and Mission</span></a></li>
+          <li class="uk-display-inline-block uk-padding-small"><a href='<?php echo site_url(); ?>' class="uk-display-block" uk-scroll><i class="fa fa-folder" aria-hidden="true"></i><span>Goals and Current Projects</span></a></li>
+          <li class="uk-display-inline-block uk-padding-small"><a href='<?php echo site_url(); ?>/blog' class="uk-display-block" uk-scroll><i class="fa fa-feed" aria-hidden="true"></i><span>Blog</span></a></li>
+          <li class="uk-display-inline-block uk-padding-small"><a href='<?php echo site_url(); ?>' class="uk-display-block" uk-scroll><i class="fa fa-envelope" aria-hidden="true"></i><span>Contact</span></a></li>
         </ul>
         <?php elseif ( is_page('Blog') ): ?>
         <ul class="uk-list uk-text-left" uk-scrollspy-nav="closest: li > a; scroll: true">

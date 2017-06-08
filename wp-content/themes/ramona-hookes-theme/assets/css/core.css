@@ -10377,7 +10377,7 @@ td.uk-text-break {
   background-size: cover;
   background-attachment: fixed;
   transition: all ease .7s;
-  min-height: 300px;
+  min-height: 350px;
 }
 #blog-hero h1,
 #blog-hero .lead-text {
@@ -10398,6 +10398,11 @@ td.uk-text-break {
 }
 #blog-posts .uk-article-title a {
   text-decoration: none;
+}
+#recent-comments-2,
+#meta-2,
+#archives-2 {
+  display: none;
 }
 #single-header {
   background: #546e7a top center no-repeat;
