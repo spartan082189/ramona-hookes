@@ -9,7 +9,9 @@
         <li class="uk-padding-small"><i class="fa fa-check-circle-o" aria-hidden="true"></i><span>75% of the work is completed</span></li>
       </ul>
       <div class="vs-mission-wrap" uk-margin>
-        <a class="uk-button uk-button-secondary uk-button-large vs-mission-btn" href="javascript:void(0);"><i class="fa fa-bullseye" aria-hidden="true"></i> Vision and Mission</a>
+        <a class="uk-button uk-button-secondary uk-button-large vs-mission-btn" href="<?php echo site_url(); ?>/vision-mission">
+          <i class="fa fa-bullseye" aria-hidden="true"></i> Vision and Mission
+        </a>
       </div>
     </div>
   </div>

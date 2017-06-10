@@ -10723,3 +10723,27 @@ td.uk-text-break {
   margin: 0 auto;
   display: block;
 }
+#vision-mission-hero {
+  background: #1e88e5 url(../../assets/images/vision-mission-hero.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  transition: all ease .7s;
+  min-height: 250px;
+}
+#vision-mission-hero h1 {
+  color: #fff;
+  font-weight: 200;
+  margin-top: 3%;
+}
+#vision-mission-hero .lead-text {
+  font-size: 20px;
+}
+#scripture-content h2 {
+  color: #1e88e5;
+}
+#vision-content {
+  background-color: #eee;
+}
+#vision-content h2 {
+  color: #ff8a65;
+}

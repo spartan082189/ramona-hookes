@@ -1,11 +1,10 @@
-<?php //get_template_part('templates/globals/latest-post'); ?>
 <!-- ########## FOOTER ########## -->
 <footer id="footer" class="uk-padding-small">
   <div class="uk-container">
     <div class="uk-width-1-1">
       <ul class="uk-list footer-nav uk-text-center">
         <li class="uk-display-inline-block"><a href="<?php echo site_url(); ?>">Home</a></li>
-        <li class="uk-display-inline-block"><a href="<?php echo site_url(); ?>">| Vision and Mission</a></li>
+        <li class="uk-display-inline-block"><a href="<?php echo site_url(); ?>/vision-mission">| Vision and Mission</a></li>
         <li class="uk-display-inline-block"><a href="<?php echo site_url(); ?>">| Goals and Current Projects</a></li>
         <li class="uk-display-inline-block"><a href="<?php echo site_url(); ?>/blog">| Blog</a></li>
         <li class="uk-display-inline-block"><a href="<?php echo site_url(); ?>">| Contact</a></li>
